@@ -14,6 +14,14 @@
 
 ### *Скрины:*
 
+![1](https://github.com/Staval-l/CP/blob/master/images/1.png?raw=true)
+![2](https://github.com/Staval-l/CP/blob/master/images/2.png?raw=true)
+![3](https://github.com/Staval-l/CP/blob/master/images/3.png?raw=true)
+![4](https://github.com/Staval-l/CP/blob/master/images/4.png?raw=true)
+![5](https://github.com/Staval-l/CP/blob/master/images/5.png?raw=true)
+![6](https://github.com/Staval-l/CP/blob/master/images/6.png?raw=true)
+![7](https://github.com/Staval-l/CP/blob/master/images/7.png?raw=true)
+![8](https://github.com/Staval-l/CP/blob/master/images/8.png?raw=true)
 
 
 

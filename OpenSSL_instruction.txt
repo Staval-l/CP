@@ -1,0 +1,22 @@
+1) Отсюда скачать OpenSSL: https://slproweb.com/products/Win32OpenSSL.html
+
+2) Далее задать путь к конфигу в cmd: 
+
+set OPENSSL_CONF=C:\OpenSSL-Win64\bin\openssl.cfg 
+
+(Это абсолютный путь до файла конфига, зависит от того куда установили)
+
+3) Далее делаем сертификат:
+
+openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout privateKey.key -out certificate.crt
+
+4) Далее называем файл сертификата и ключа также как они названы в проге с мессенджером, и кладем это в папку проекта, заменяя тамошние сертификат и ключ
+
+5) Конгратс, все работает на питоне 3.8
+
+
+Ссылки:
+
+1) https://stackoverflow.com/questions/16658038/cant-open-config-file-usr-local-ssl-openssl-cnf-on-windows
+
+2) https://kapeli.com/cheat_sheets/openssl.docset/Contents/Resources/Documents/index

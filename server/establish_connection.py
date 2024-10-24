@@ -22,7 +22,7 @@ def handle_user(client_socket):
         config.client_sockets.remove(client_socket)
         config.socket_addresses.pop(client_socket)
         return
-    print(data)
+    #print(data)
     print(config.users)
     if code == const.login_code:
         if len(data.split("~")) != 2:
@@ -66,9 +66,9 @@ def handle_user(client_socket):
             return
         else:
             salt = bcrypt.gensalt()
+            pwd = bcrypt.hashpw(pwd.encode(), salt)
             print(salt)
             print(pwd)
-            pwd = bcrypt.hashpw(pwd.encode(), salt)
             config.users[uname] = (salt.decode(), pwd.decode())
             print("New user joined\nnickname: " + uname)
             client_socket.send(const.login_successfully_code.encode())

@@ -18,7 +18,7 @@ socket_addresses = {}  # active sockets and their address - {socket, address}
 
 def open_db():
     global users
-    infile = open('C:\\Users\\Staval\\Desktop\\chat-main\\server\\users.json', 'r')
+    infile = open('C:\\Users\\Staval\\PycharmProjects\\CP\\server\\users.json', 'r')
     users = json.loads(infile.read())
     infile.close()
     print(users)

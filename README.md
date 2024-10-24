@@ -1,21 +1,19 @@
-# Terminal based Secure Private Chat app
+# Защищенный мессенджер на базе терминала
 
-Make sure that python 3.8 is installed on your device (the app is not compatible with python 3.9 due to unsupported libraries).
+Для работы необходимо установить python 3.8 (на версиях python 3.9 и выше не поддерживаются некоторые библиотеки)
 
-To run the chat application on your computer download the ```client``` folder and run ```python main.py``` (add ```sudo``` if you are using Linux) for the client.
-It may return some errors about packages that are not installed, so you just enter:
+Для запуска необходимо выполнить следующую команду:
 
-```pip install -r requirements.txt``` (from the general ```chat``` folder)
+```pip install -r requirements.txt``` (запускать из корневой папки)
 
-Note that the app is meant for windows, so there can be some visual problems in Linux or other operating systems.
+Сначала нужно запустить сервер из папки ```server``` выполнив команду ```python main.py``` (добавьте ```sudo``` если вы стартуете на Linux). Для клиента делаем то же самое, но из папки ```client```.
 
-### *Optional:*
-1. Create private group chats, i.e. Invite only
-2. Create Public Chat rooms
+Замечание: данное приложение ориентировано на ОС Windows, и может иметь некоторые графические артефакты на других ОС.
 
-![welcome](https://github.com/yoelbassin/chat/blob/main/Images/welcome.jpeg?raw=true)
-![Login](https://github.com/yoelbassin/chat/blob/main/Images/login.jpeg?raw=true)
-![Menu](https://github.com/yoelbassin/chat/blob/main/Images/menu.jpeg?raw=true)
-![Invite](https://github.com/yoelbassin/chat/blob/main/Images/invite.jpeg?raw=true)
-![chat](https://github.com/yoelbassin/chat/blob/main/Images/chat.jpeg?raw=true)
+### [Исходник данного приложения](https://github.com/yoelbassin/chat)
+
+### *Скрины:*
+
+
+
 

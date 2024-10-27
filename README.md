@@ -23,5 +23,16 @@
 ![7](https://github.com/Staval-l/CP/blob/master/images/7.png?raw=true)
 ![8](https://github.com/Staval-l/CP/blob/master/images/8.png?raw=true)
 
+# Пример работы сниффера пакетов и блокировщика соединения
 
+### *Запуск сниффера и блокировщика осуществляется аналогично запуску сервера и клиента*
 
+### *Скрины*
+
+![9](https://github.com/Staval-l/CP/blob/master/images/9.png?raw=true)
+
+![10](https://github.com/Staval-l/CP/blob/master/images/10.png?raw=true)
+
+![11](https://github.com/Staval-l/CP/blob/master/images/11.png?raw=true)
+
+![12](https://github.com/Staval-l/CP/blob/master/images/12.png?raw=true)

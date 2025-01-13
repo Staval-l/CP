@@ -1,0 +1,5 @@
+Поставить любую машину с любым линуксом. Далее поставить докер - sudo apt-get docker, потом выполнить команду ниже.
+
+docker run -d --name=wg-easy -e WG_HOST=<IP-адрес виртуалки> -e PASSWORD=<Пароль> -v ~/.wg-easy:/etc/wireguard -p 51820:51820/udp -p 51821:51821/tcp --cap-add=NET_ADMIN --cap-add=SYS_MODULE --sysctl="net.ipv4.conf.all.src_valid_mark=1" --sysctl="net.ipv4.ip_forward=1" --restart unless-stopped weejewel/wg-easy
+
+Все, лаба готова, коннектитесь через wireguard к серверу и показываете конфиги.
